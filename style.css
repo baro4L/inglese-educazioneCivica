@@ -1,0 +1,332 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.barra-navigazione {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.barra-navigazione a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.contenitore-principale {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sezione-poesia {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-style: italic;
+}
+
+.sezione-goals{
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sezione-goals > img{
+    max-width: 900px;
+}
+
+.sezione-contenitori{
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contenitori-link {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.scheda-contenitore {
+    margin-bottom: 30px;
+    width: 45%;
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.scheda-contenitore:hover {
+    transform: scale(1.05);
+}
+
+.scheda-contenitore img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+hr{
+    padding: 2px;
+    background-color: rgb(192, 192, 192);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.sezione-autore {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contenitore-autore {
+    display: flex;
+    align-items: center;
+}
+
+.foto-autore {
+    max-width: 400px;
+    border-radius: 15px;
+    margin-right: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.sezione-sitografia {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.lista-siti {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-siti li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+.lista-siti a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lista-siti a:hover {
+    text-decoration: underline;
+}
+
+.corpo {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.barra-navigazione {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.barra-navigazione a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+.contenitore-contatti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.scheda-contatto {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.scheda-contatto:hover {
+    transform: scale(1.05);
+}
+
+.scheda-contatto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.scheda-contatto .email {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.immagine-obiettivo {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.sezione-obiettivo {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sotto-sezioni {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sotto-sezione {
+    width: 29%;
+    background: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.sotto-sezione:hover {
+    transform: scale(1.03);
+}
+
+@media screen and (max-width: 768px) {
+    
+    .barra-navigazione {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .barra-navigazione a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .contenitore-principale {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .sezione-poesia,
+    .sezione-goals,
+    .sezione-contenitori,
+    .sezione-autore,
+    .sezione-sitografia {
+        padding: 20px;
+        padding-left: 20px;
+    }
+
+    .contenitori-link {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .scheda-contenitore {
+        width: 90%;
+    }
+
+    .contenitore-autore {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto-autore {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contenitore-contatti {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .scheda-contatto {
+        width: 90%;
+    }
+
+    .sotto-sezioni {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sotto-sezione {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .sezione-goals > img {
+        max-width: 100%;
+        height: auto;
+    }
+}
