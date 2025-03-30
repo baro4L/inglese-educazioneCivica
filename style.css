@@ -137,6 +137,14 @@ hr{
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+.sezione-ai{
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
 .lista-siti {
     list-style-type: none;
     padding: 0;
